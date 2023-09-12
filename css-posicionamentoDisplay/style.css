@@ -1,0 +1,11 @@
+#inline{
+    border: 2px solid black;
+    display: inline;
+    margin-left: 80%;
+}
+
+#inline-block{
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 100px;
+}

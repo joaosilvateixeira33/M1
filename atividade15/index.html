@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade14</title>
+</head>
+<body>
+    <script>
+        // Exercício 1
+        // Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor
+        // que C.
+
+        // Declare uma variável chamada A e atribua a ela o valor 10.
+        let A = 10;
+
+        // Declare uma variável chamada B e atribua a ela o valor 20.
+        let B = 20;
+
+        // Declare uma variável chamada C e atribua a ela o valor 30.
+        let C = 30;
+
+        // Verifique se a soma de A e B é menor que C.
+        if (A + B < C) {
+        // Se a condição for verdadeira, exiba um alerta indicando que a soma de A + B é menor que C.
+        alert("A soma de A + B é menor que C");
+        }
+
+        // Exercício 2
+        // Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar.
+
+        // Declare uma variável chamada numero e atribua a ela o valor 30.
+        let numero = 30;
+
+        // Verifique se o número é par ou ímpar usando uma estrutura condicional.
+        // O operador % (módulo) retorna o resto da divisão entre o número e 2.
+        // Se o resto for igual a zero, significa que o número é par.
+        if (numero % 2 == 0) {
+        // Se o número for par, exiba um alerta informando que o número é par.
+        alert("O número é par, pois o resto da divisão por 2 é zero");
+        } else {
+        // Caso contrário, ou seja, se o número for ímpar, exiba um alerta informando que o número é ímpar.
+        alert("O número é ímpar, pois o resto da divisão por 2 não é zero");
+        }
+
+        // Exercício 3
+        // Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são VERDADEIROS ou FALSOS.
+
+        // Crie uma variável chamada booleano1 e atribua a ela o valor booleano verdadeiro (true).
+        let booleano1 = true;
+
+        // Crie uma variável chamada booleano2 e atribua a ela o valor booleano falso (false).
+        let booleano2 = false;
+
+        // Verifique se ambos booleano1 e booleano2 são verdadeiros utilizando o operador lógico && (AND).
+        // Se ambos forem verdadeiros, exiba um alerta dizendo "Ambos são verdadeiros".
+        if (booleano1 && booleano2) {
+        alert("Ambos são verdadeiros");
+        }
+        // Caso contrário, verifique se ambos booleano1 e booleano2 são falsos utilizando o operador lógico ! (NOT) e o operador && (AND).
+        // Se ambos forem falsos, exiba um alerta dizendo "Ambos são falsos".
+        else if (!booleano1 && !booleano2) {
+        alert("Ambos são falsos");
+        }
+
+        // Exercício 4
+        // Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem
+        // decrescente.
+
+        // Declare três variáveis inteiras diferentes e atribua valores a elas.
+        let inteiro1 = 3;
+        let inteiro2 = 5;
+        let inteiro3 = 8;
+
+        // Use uma estrutura condicional para verificar as combinações possíveis e mostrar os valores em ordem decrescente.
+        if (inteiro1 > inteiro2 && inteiro2 > inteiro3) {
+        alert(inteiro1 + " -> " + inteiro2 + " -> " + inteiro3);
+        } else if (inteiro1 > inteiro3 && inteiro3 > inteiro2) {
+        alert(inteiro1 + " -> " + inteiro3 + " -> " + inteiro2);
+        } else if (inteiro2 > inteiro1 && inteiro1 > inteiro3) {
+        alert(inteiro2 + " -> " + inteiro1 + " -> " + inteiro3);
+        } else if (inteiro2 > inteiro3 && inteiro3 > inteiro1) {
+        alert(inteiro2 + " -> " + inteiro3 + " -> " + inteiro1);
+        } else if (inteiro3 > inteiro1 && inteiro1 > inteiro2) {
+        alert(inteiro3 + " -> " + inteiro1 + " -> " + inteiro2);
+        } else {
+        alert(inteiro3 + " -> " + inteiro2 + " -> " + inteiro1);
+        }
+
+        //Exercício 4 - Outra forma de resolução
+
+        // Declare três variáveis inteiras diferentes e atribua valores a elas.
+        let inteiro01 = 3;
+        let inteiro02 = 5;
+        let inteiro03 = 8;
+
+        // Verifica a maior entre as três variáveis
+        let maior = inteiro1;
+
+        if (inteiro2 > maior) {
+        maior = inteiro2;
+        }
+
+        if (inteiro3 > maior) {
+        maior = inteiro3;
+        }
+
+        // Verifica a menor entre as três variáveis
+        let menor = inteiro1;
+
+        if (inteiro2 < menor) {
+        menor = inteiro2;
+        }
+
+        if (inteiro3 < menor) {
+        menor = inteiro3;
+        }
+
+        // Calculamos o valor intermediário somando os três números e subtraindo o maior e o menor.
+        let intermediario = inteiro1 + inteiro2 + inteiro3 - maior - menor;
+
+        // Exibe os valores em ordem decrescente
+        alert(maior + " -> " + intermediario + " -> " + menor);
+
+        // Exercício 5
+        // Escreva um algoritmo que receba dois números. ⁠Alerte em tela qual o maior valor recebido.
+
+        // Declaração das variáveis num1 e num2 e atribuição dos valores
+        let num1 = 10;
+        let num2 = 20;
+
+        // Verifica se num1 é maior que num2
+        if (num1 > num2) {
+        // Caso num1 seja maior, exibe uma mensagem alertando que o maior número é num1
+        alert("O maior número é o " + num1);
+        } else {
+        // Caso contrário, exibe uma mensagem alertando que o maior número é num2
+        alert("O maior número é o " + num2);
+        }
+    </script>
+</body>
+</html>

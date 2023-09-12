@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Lógicos</title>
+</head>
+<body>
+    <script>
+        const variavelFalsa = false;
+        const variavelVerdadeira = true;
+
+        // Comparando a variavelFalsa e a variavelVerdadeira usando &&
+        console.log(variavelFalsa && variavelVerdadeira); // Saída: false
+
+        // Comparando a variavelFalsa e a variavelVerdadeira usando ||
+        console.log(variavelFalsa || variavelVerdadeira); // Saída: true
+
+        // Negando a variavelFalsa e a variavelVerdadeira
+        console.log(!variavelFalsa); // Saída: true
+        console.log(!variavelVerdadeira); // Saída: false
+
+        //Usando a negação da variavelFalsa e da variavelVerdadeira com o operador &&
+        console.log(!variavelFalsa && variavelVerdadeira); // Saida: true
+        console.log(!variavelVerdadeira && variavelFalsa); // Saída: false
+
+        //Usando a negação da variavelFalsa e da variavelVerdadeira com o operador ||
+        console.log(!variavelFalsa || variavelVerdadeira); // Saida: true
+        console.log(!variavelVerdadeira || variavelFalsa); // Saída: false
+    </script>
+</body>
+</html>

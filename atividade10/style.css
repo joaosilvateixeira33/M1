@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    /* define a largura */
+    width: 400px; 
+    /* define a altura */
+    height: 350px;
+    /* Margem para centralizar horizontalmente */
+    margin: 50px auto; 
+    /* Preenchimento interno */
+    padding: 50px; 
+    /* Borda com a cor cinza claro (#ccc) */
+    border: 2px solid #ccc; 
+    /* Arredonda os cantos */
+    border-radius: 10px;
+}
+
+.card-title{
+     /* Alinha o texto do título ao centro */
+    text-align: center;
+    /* Margem para espaçar o título dos demais elementos */
+    margin: 50px; 
+}
+
+.card-form{
+    /* Define o contêiner de formulário como flexível */
+    display: flex; 
+    /* Define a orientação dos elementos do formulário como coluna */
+    flex-direction: column; 
+}
+
+/* Adiciona uma margem inferior de 10 pixels para espaçar as etiquetas */
+.card-form label{
+    margin-bottom: 10px; 
+}
+
+.card-form .input-email{
+    /* Define a cor de fundo do campo de entrada de email como cinza claro (#E9ECEF) */
+    background: #E9ECEF; 
+    /* Define uma borda transparente para o campo de entrada de email */
+    border: 1px solid transparent; 
+    /* Arredonda os cantos do campo de entrada de email */
+    border-radius: 10px; 
+    /* Adiciona uma margem inferior de 20 pixels para espaçar o campo de entrada de email dos demais elementos */
+    margin-bottom: 20px; 
+    /* Define um preenchimento interno horizontal de 0 pixels e vertical de 15 pixels para o campo de entrada de email */
+    padding: 0 15px; 
+    /* Define a altura do campo de entrada de email como 50 pixels */
+    height: 50px; 
+}
+
+.card-form .input-email:hover{
+    /* Define a cor de fundo do campo de entrada de email como cinza mais claro (#DEE2E6) quando o mouse está sobre ele */
+    background: #DEE2E6; 
+}
+
+.card-form .input-email:focus{
+    /* Define a cor de fundo do campo de entrada de email como branco (#fff) quando está em foco */
+    background: #fff; 
+    /* Define uma borda preta (#000) de 1 pixel para o campo de entrada de email quando está em foco */
+    border: 1px solid #000; 
+}
+
+.card-form .btn-sign{
+    /* Define a cor de fundo do botão de assinatura como azul (#1971C2) */
+    background: #1971C2; 
+    /* Remove a borda do botão de assinatura */
+    border: none; 
+    /* Arredonda os cantos do botão de assinatura */
+    border-radius: 10px; 
+     /* Define a cor do texto do botão de assinatura como branco (#fff) */
+    color: #fff;
+    /* Define a altura do botão de assinatura como 50 pixels */
+    height: 50px; 
+    /* Define o cursor do mouse como ponteiro ao passar sobre o botão de assinatura */
+    cursor: pointer;
+}
+
+.card-form .btn-sign:hover{
+    /* Define a cor de fundo do botão de assinatura como azul mais escuro (#1864AB) quando o mouse está sobre ele */
+    background: #1864AB; 
+}
+
+.card-form .btn-sign:focus{
+    /* Define uma borda preta (#000) de 1 pixel para o botão de assinatura quando está em foco */
+    border: 1px solid #000; 
+}

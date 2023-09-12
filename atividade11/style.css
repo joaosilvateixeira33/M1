@@ -1,0 +1,18 @@
+section{
+    margin-top: 40px;
+}
+
+.text_line{
+    display: inline-block;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 8px;
+    margin: 5px;
+}
+
+.text_line:hover{
+    color: white;
+    background-color: blue;
+}
