@@ -1,0 +1,15 @@
+/*Seletor por elemento*/
+h1{
+    color: aqua;
+}
+
+/*seletor por classe*/
+.tarefas{
+    background-color: red;
+    color: white;
+}
+
+/*seletor por id*/
+#marcado{
+    background-color: yellow;
+}
